@@ -17,7 +17,7 @@
   </head>
   <body>
     <header class="page-header">
-      <div aria-colcount="container">
+      <div class="container">
         <nav class="header-nav">
           <a class="header-logo" href="./index.html">
             <img
@@ -27,7 +27,8 @@
               height="52"
             />
           </a>
-
+          </div>
+          <div class="container">
           <ul class="header-nav-list">
             <li class="header-nav-item"><a class="header-nav-link" href="./index.html">Home</a></li>
             <li class="header-nav-item"><a class="header-nav-link" href="">About</a></li>
@@ -36,12 +37,16 @@
             <li class="header-nav-item"><a class="header-nav-link" href="">Contact</a></li>
           </ul>
         </nav>
-        <button class="btn" type="button">Order Now</button>
+        </div>
+        <div class="container">
+        <button class="btn-nav" type="button">Order Now</button>
       </div>
     </header>
     <main>
       <section class="hero-section">
         <div class="container">
+          <div class="content-wrapper">
+            <div class="text-block">
         <h1 class="page-title">Enjoy Your Favorite Food From Anywhere</h1>
         <p class="text">
           With just a few clicks, you can have your favorite meals delivered
@@ -49,26 +54,34 @@
           enjoy a hassle-free and delicious meal from the comfort of your own
           home.
         </p>
-        <button class="btn" type="button">Order Now</button>
-        <img src="./images/Hero.png" alt="Hero" width="528" height="528" />
         </div>
+        <button class="btn" type="button">Order Now</button>
+        </div>
+        <div class="content-wrapper">
+        <img src="./images/hero.png" alt="Hero" width="580" height="580" />
+      </div>  
+      </div>
       </section>
       <section class="offerings-section">
         <div class="container">
-        <img
+        <div class="content-wrapper">
+          <img
           src="./images/Offerings.png"
           alt="Offerings"
           width="502"
           height="502"
         />
+        </div>
+        <div class="content-wrapper"> 
         <h2 class="title">What's Special About Our Offerings</h2>
         <p class="text">
           With our platform, you can browse through a diverse selection of
           cuisines and local restaurants, and choose from a variety of dishes
           that cater to your specific taste buds.
         </p>
-        <ul class="list">
+        <ul class="list-offerings">
           <li class="item">
+            <img src="./images/deliv.svg" alt="deliv" width="48" height="48" />
             <h3 class="subtitle">Fasest Delivery</h3>
             <p class="text">
               Our advanced logistics system and dedicated delivery partners
@@ -76,6 +89,7 @@
             </p>
           </li>
           <li class="item">
+            <img class="hero" src="./images/order.svg" alt="order" width="48" height="48" />
             <h3 class="subtitle">Easy To Order</h3>
             <p class="text">
               You can browse through a wide variety of cuisines and restaurants,
@@ -84,7 +98,8 @@
             </p>
           </li>
         </ul>
-        <button class="btn" type="button">Order Now</button>
+        <button class="btn-offerings" type="button">Order Now</button> 
+        </div>
         </div>
       </section>
       <section class="favorites-section">
@@ -102,7 +117,7 @@
           </li>
           <li class="item">
             <img
-              src="./images/Pasta.png"
+              src="./images/pasta.png"
               alt="Pasta"
               width="315"
               height="315"
@@ -150,30 +165,42 @@
           Don't just take our word for it - see what our satisfied customers
           have to say
         </p>
-        <ul class="list">
+        <ul class="list-quote">
           <li class="item">
+            <img class="stars" src="./images/stars.svg" alt="stars" width="101" height="16" />
             <p class="text">
               "The Best app I have used to order food in a while, so many
               options to choose from too, I would recommend to a freind, No
               questions asked"
             </p>
-            <img src="./images/1.png" alt="Review" width="48" height="48" />
+            <div class="container">
+            <img class="customers" src="./images/1.png" alt="Review" width="48" height="48" />
+            <div class="col">
             <h3 class="subtitle">Sumith Shah</h3>
             <p>Some Dude</p>
+            </div>
+            </div>
           </li>
           <li class="item">
+            <img class="stars" src="./images/stars.svg" alt="stars" width="101" height="16" />
             <p class="text">
               "The ease with which I can just go in and order what i want was
               amazing, It has been a very pleasant experience ordering from this
               app"
             </p>
-            <img src="./images/2.png" alt="Review" width="48" height="48" />
+            <div class="container">
+            <img class="customers" src="./images/2.png" alt="Review" width="48" height="48" />
+            <div class="col">
             <h3 class="subtitle">Sumith Shah</h3>
             <p>Some Dude</p>
+            </div>
+            </div>
           </li>
         </ul>
       </section>
       <section class="subscribe-section">
+        <div class="container">
+          <div class="subscribe-container">
         <h2 class="title">Subscribe To Get Special Offers</h2>
         <p class="text">
           Order now and receive 10% off your first meal with Enjoy Your Favorite
@@ -181,15 +208,20 @@
         </p>
         <button class="btn" type="button">Subscribe</button>
         </div>
+        <img src="./images/banan.png" alt="Banan" width="608" height="266" />
+        </div>
       </section>
     </main>
     <footer class="page-footer">
       <div class="container">
+        <div class="content-wrapper-top">
+        <div class="content-wrapper">
       <nav class="footer-nav">
         <a href="./index.html">
           <img src="./images/logo.svg" alt="Logotype" width="66" height="52" />
         </a>
-
+        </div>
+        <div class="container">
         <ul class="footer-nav-list">
           <li class="footer-nav-item"><a class="footer-nav-link" href="./index.html">Home</a></li>
           <li class="footer-nav-item"><a class="footer-nav-link" href="">About</a></li>
@@ -197,16 +229,27 @@
           <li class="footer-nav-item"><a class="footer-nav-link" href="">Menu</a></li>
           <li class="footer-nav-item"><a class="footer-nav-link" href="">Contact</a></li>
         </ul>
+        </div>
       </nav>
-      <p class="text">Subscribe</p>
-      <button class="btn" type="button">Subscribe</button>
-      <p class="text">By subscribing you agree to with our <a href="">Privacy Policy</a></p>
-      <ul class="list">
+      <div class="content-field">
+      <p class="subtitle">Subscribe</p>
+      <button class="btn-footer" type="button">Subscribe</button>
+      <p class="text">By subscribing you agree to with our <a class="list-navigation" href="">Privacy Policy</a></p>
+      </div>
+      </div>
+      <div class="content-wrapper-bottom">
+      <div class="content-wrapper">
+      <ul class="list-navigation">
         <li class="item"><a class="link" href="">Privacy Policy</a></li>
         <li class="item"><a class="link" href="">Terms of Service</a></li>
         <li class="item"><a  class="link"href="">Cookies Settings</a></li>
       </ul>
+      </div>
+      <div class="text-block">
       <p class="text">2022 FoodSta. All right reserved.</p>
+      </div>
+      </div>
+      <img class="background-image" src="./images/footer.png" alt="footer" width="1248" height="250" />
       </div>
     </footer>
   </body>
