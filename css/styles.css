@@ -52,15 +52,17 @@ button {
   margin: 0 auto;
   padding: 0 16px;
 }
-.page-header {
+
+.page-header .container {
+  max-width: 1280px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0 auto;
 }
 .header-logo {
   float: left;
   justify-content: center;
-  margin-right: 735px;
 }
 .header-nav {
   display: flex;
@@ -90,6 +92,7 @@ button {
   height: 32px;
   background-color: #bbf330;
   margin: 0 auto;
+  white-space: nowrap;
 }
 .btn-nav {
   border-radius: 30px;
@@ -98,17 +101,16 @@ button {
   height: 32px;
   background-color: #bbf330;
   margin: 0 auto;
+  white-space: nowrap;
 }
 
 .hero-section .container {
-  justify-content: center;
   background-color: #fefefe;
   padding: 100px 0;
-  margin: 0 16px;
+  max-width: 1248px;
   display: flex;
-}
-.text-block {
-  margin-right: 157px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .hero-section .page-title {
@@ -119,7 +121,7 @@ button {
   width: 502px;
   gap: 28px;
   justify-content: center;
-  margin: 28px 157px 28px 0;
+  margin: 28px 0;
 }
 .hero-section .text {
   width: 511px;
@@ -137,6 +139,7 @@ button {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 1248px;
 }
 
 .offerings-section .content-wrapper {
@@ -184,9 +187,13 @@ button {
   outline-style: solid;
   outline-color: #7eb101;
   margin: 0 auto;
+  white-space: nowrap;
 }
 .favorites-section {
   padding: 100px 0;
+}
+.favorites-section .container {
+  max-width: 1248px;
 }
 .favorites-section .title {
   margin: 0 0 20px 0;
@@ -195,6 +202,12 @@ button {
 .favorites-section .text {
   margin: 0 0 40px 0;
   text-align: center;
+}
+.favorites-section .content-wrapper {
+  max-width: 1248px;
+  gap: 24px;
+  row-gap: 48px;
+  justify-content: center;
 }
 .favorites-section .list {
   display: grid;
@@ -208,7 +221,9 @@ button {
   background-color: #ffe550;
   padding: 100px 0;
 }
-
+.customers-say-section .container {
+  max-width: 1248px;
+}
 .customers-say-section .text {
   font-weight: 700;
   font-size: 18px;
@@ -233,7 +248,7 @@ button {
   row-gap: 48px;
 }
 .list-quote .item {
-  width: 501px;
+  width: 511px;
   flex: 1;
   background-color: #fefefe;
   border-radius: 0 30px 30px 30px;
@@ -260,12 +275,14 @@ button {
 }
 .subscribe-section {
   padding: 100px 0;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .subscribe-section .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 1248px;
 }
 .subscribe-container .title {
   margin-bottom: 20px;
@@ -276,14 +293,16 @@ button {
 .page-footer {
   padding: 100px 0 0 0;
 }
+.page-footer .container {
+  max-width: 1248px;
+}
 .content-wrapper-top {
+  margin-bottom: 55px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 55px;
+  max-width: 1248px;
 }
-.content-field {
-  width: 395px;
-}
+
 .content-wrapper-top .subtitle {
   font-weight: 500;
   font-size: 14px;
@@ -293,6 +312,7 @@ button {
   font-weight: 400;
   font-size: 12px;
   margin-top: 12px;
+  white-space: nowrap;
 }
 
 .content-wrapper-bottom {
@@ -338,6 +358,7 @@ button {
   outline-style: solid;
   outline-color: #7eb101;
   margin: 0 auto;
+  white-space: nowrap;
 }
 .list-navigation {
   color: #7eb101;
