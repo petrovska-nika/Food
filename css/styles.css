@@ -331,6 +331,8 @@ button {
 .content-wrapper-bottom .text {
   font-weight: 400;
   font-size: 12px;
+  align-items: center;
+  margin-top: 35px;
 }
 .footer-nav {
   display: flex;
@@ -353,8 +355,9 @@ button {
   color: #bbf330;
   text-decoration: underline;
 }
-.background-image {
-  background-image: ./images/footer.png;
+.page-footer .container .content-wrapper-bottom {
+  background-image: url(../images/footer.png);
+  background-repeat: no-repeat;
 }
 
 .btn-footer {
@@ -375,4 +378,5 @@ button {
   gap: 28px;
   align-items: center;
   margin-top: 126px;
+  margin-bottom: 100px;
 }
